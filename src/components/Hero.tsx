@@ -35,9 +35,7 @@ export default function Hero() {
               <span className="relative z-10">LAUNCH DASHBOARD</span>
               <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity"></div>
             </button>
-            <button className="px-8 py-4 glass text-neon-cyan font-orbitron font-bold rounded-lg hover:box-glow transition-all">
-              VIEW DEMO
-            </button>
+
           </div>
         </div>
       </div>
