@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;900&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-inter;
+  }
+}
+
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 10px currentColor, 0 0 20px currentColor, 0 0 30px currentColor;
+  }
+
+  .box-glow {
+    box-shadow: 0 0 20px rgba(0, 255, 249, 0.3), 0 0 40px rgba(0, 255, 249, 0.1);
+  }
+
+  .box-glow-magenta {
+    box-shadow: 0 0 20px rgba(255, 0, 255, 0.3), 0 0 40px rgba(255, 0, 255, 0.1);
+  }
+
+  .box-glow-lime {
+    box-shadow: 0 0 20px rgba(180, 255, 57, 0.3), 0 0 40px rgba(180, 255, 57, 0.1);
+  }
+
+  .glass {
+    background: rgba(26, 31, 58, 0.4);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(0, 255, 249, 0.2);
+  }
+
+  .grid-pattern {
+    background-image:
+      linear-gradient(rgba(0, 255, 249, 0.1) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0, 255, 249, 0.1) 1px, transparent 1px);
+    background-size: 50px 50px;
+  }
+}
