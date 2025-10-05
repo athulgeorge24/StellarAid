@@ -21,7 +21,7 @@ export default function Footer() {
 
           <div className="flex items-center gap-4">
             <a
-              href="https://github.com"
+              href="https://github.com/athulgeorge24/StellarAid"
               target="_blank"
               rel="noopener noreferrer"
               className="glass p-3 rounded-lg hover:box-glow transition-all group"
